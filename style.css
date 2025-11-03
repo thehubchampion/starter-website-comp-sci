@@ -1,10 +1,43 @@
-img {
-    width: 200px;
+body {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  background: yellow;
+  color: black;
 }
-    body {
-        text-align: center;
-        font-family:'Courier New', Courier, monospace;
-        background: yellow;
-        color: black;
-    }
 
+h1 {
+  font-size: 36px;
+}
+
+img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+button {
+  background-color: black;
+  color: yellow;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkred;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 14px;
+}
